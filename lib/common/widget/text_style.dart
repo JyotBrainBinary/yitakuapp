@@ -5,6 +5,7 @@ TextStyle regular(
     {Color? color,
       double? fontSize,
       double? letterSpacing,
+      TextDecoration? textdeco,
       FontWeight? fontWeight}) {
   return TextStyle(
     color: color ?? ColorRes.white,
@@ -12,6 +13,7 @@ TextStyle regular(
     fontSize: fontSize ?? 14,
     //fontFamily: FontRes.poppinsRegular,
     letterSpacing: letterSpacing ?? 0,
+    decoration: textdeco,
   );
 }
 

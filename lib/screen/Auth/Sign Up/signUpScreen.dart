@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:yitaku/common/widget/text_field.dart';
 import 'package:yitaku/common/widget/text_style.dart';
+import 'package:yitaku/screen/Auth/Login/loginScreen.dart';
 import 'package:yitaku/screen/Auth/Sign%20Up/signUpController.dart';
 import 'package:yitaku/utils/StringRes.dart';
 import 'package:yitaku/utils/colorRes.dart';
@@ -24,12 +25,18 @@ class SignUpScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                SizedBox(
+                  height: Get.height * 0.06,
+                ),
                 Align(
                   alignment: Alignment.center,
                   child: Text(
                     StringRes.signUpAndCreateAccount,
                     style: medium(fontSize: 24, color: ColorRes.color767676),
                   ),
+                ),
+                SizedBox(
+                  height: Get.height * 0.03,
                 ),
                 Align(
                   alignment: Alignment.center,
@@ -38,10 +45,25 @@ class SignUpScreen extends StatelessWidget {
                     style: regular(fontSize: 12, color: ColorRes.appColor),
                   ),
                 ),
+                SizedBox(
+                  height: Get.height * 0.08,
+                ),
                 Text(StringRes.email, style: regular(fontSize: 14, color: ColorRes.color767676),),
-                textFild(controller.emailController, StringRes.enterEmail, controller.boxColor),
+                SizedBox(
+                  height: Get.height * 0.015,
+                ),
+                textFild(controller.emailController, StringRes.enterEmail, controller.boxColor,controller.emailController.text),
+                SizedBox(
+                  height: Get.height * 0.015,
+                ),
                 Text(StringRes.password, style: regular(fontSize: 14, color: ColorRes.color767676),),
-                textFild(controller.passwordController, StringRes.enterPassword, controller.boxColor),
+                SizedBox(
+                  height: Get.height * 0.015,
+                ),
+                textFild(controller.passwordController, StringRes.enterPassword, controller.boxColor,controller.passwordController.text),
+                SizedBox(
+                  height: Get.height * 0.06,
+                ),
                 InkWell(
                   onTap: (){
 
@@ -65,6 +87,11 @@ class SignUpScreen extends StatelessWidget {
                     child: Text(StringRes.signUp, style: regular()),
                   ),
                 ),
+                Spacer(),
+
+                InkWell(onTap: () {
+                  Get.to(LoginScreen());
+                },child: Align(alignment :Alignment.center,child: Text(StringRes.already,style: regular(fontSize: 20,color: ColorRes.color767676),)))
               ],
             ),
           );

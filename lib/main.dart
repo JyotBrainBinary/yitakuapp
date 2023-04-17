@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:yitaku/screen/Auth/BlueLogin/blueLoginScreen.dart';
+import 'package:yitaku/screen/Auth/Login/loginScreen.dart';
 import 'package:yitaku/screen/Auth/OnBordScreen.dart';
 
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Yitaku',
-      home:  OnBordScreen(),
+      home:  BlueLoginScreen(),
     );
   }
 }

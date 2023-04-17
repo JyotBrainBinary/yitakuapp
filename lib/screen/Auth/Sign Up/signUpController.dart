@@ -8,4 +8,6 @@ class SignUpController extends GetxController{
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
+
+
 }
