@@ -3,6 +3,25 @@ import 'package:yitaku/utils/colorRes.dart';
 
 import '../../utils/font_res.dart';
 
+TextStyle overpassRegular({Color? color,
+  double? fontSize,
+  double? letterSpacing,
+  TextDecoration? textdeco,
+  double? height,
+
+  FontWeight? fontWeight}) {
+  return TextStyle(
+    color: color ?? ColorRes.white,
+    fontWeight: fontWeight ?? FontWeight.w400,
+    fontSize: fontSize ?? 14,
+    fontFamily: FontRes.overpassRegular,
+    letterSpacing: letterSpacing ?? 0,
+    decoration: textdeco,
+    height: height,
+
+  );
+}
+
 TextStyle regular({Color? color,
   double? fontSize,
   double? letterSpacing,
@@ -11,13 +30,12 @@ TextStyle regular({Color? color,
 
   FontWeight? fontWeight}) {
   return TextStyle(
-      color: color ?? ColorRes.white,
-      fontWeight: fontWeight ?? FontWeight.w400,
-      fontSize: fontSize ?? 14,
-      fontFamily: FontRes.overpassRegular,
-      letterSpacing: letterSpacing ?? 0,
-      decoration: textdeco,
-      height: height,
+    color: color ?? ColorRes.white,
+    fontWeight: fontWeight ?? FontWeight.w400,
+    fontSize: fontSize ?? 14,
+    letterSpacing: letterSpacing ?? 0,
+    decoration: textdeco,
+    height: height,
 
   );
 }

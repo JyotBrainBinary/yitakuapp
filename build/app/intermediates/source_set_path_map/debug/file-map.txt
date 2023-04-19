@@ -1,13 +1,13 @@
-com.example.yitaku.app-jetified-window-java-1.0.0-beta04-0 C:\Users\Braibinary Infotech\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
-com.example.yitaku.app-core-1.6.0-1 C:\Users\Braibinary Infotech\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
-com.example.yitaku.app-jetified-annotation-experimental-1.1.0-2 C:\Users\Braibinary Infotech\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
-com.example.yitaku.app-jetified-window-1.0.0-beta04-3 C:\Users\Braibinary Infotech\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
-com.example.yitaku.app-debug-4 D:\jyot\Nihar sir\yitaku\android\app\src\debug\res
-com.example.yitaku.app-main-5 D:\jyot\Nihar sir\yitaku\android\app\src\main\res
-com.example.yitaku.app-pngs-6 D:\jyot\Nihar sir\yitaku\build\app\generated\res\pngs\debug
-com.example.yitaku.app-resValues-7 D:\jyot\Nihar sir\yitaku\build\app\generated\res\resValues\debug
-com.example.yitaku.app-rs-8 D:\jyot\Nihar sir\yitaku\build\app\generated\res\rs\debug
-com.example.yitaku.app-mergeDebugResources-9 D:\jyot\Nihar sir\yitaku\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.yitaku.app-mergeDebugResources-10 D:\jyot\Nihar sir\yitaku\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.yitaku.app-merged_res-11 D:\jyot\Nihar sir\yitaku\build\app\intermediates\merged_res\debug
-com.example.yitaku.app-packaged_res-12 D:\jyot\Nihar sir\yitaku\build\shared_preferences_android\intermediates\packaged_res\debug
+com.example.yitaku.app-jetified-window-java-1.0.0-beta04-0 C:\Users\asus\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.yitaku.app-core-1.6.0-1 C:\Users\asus\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.example.yitaku.app-jetified-annotation-experimental-1.1.0-2 C:\Users\asus\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.yitaku.app-jetified-window-1.0.0-beta04-3 C:\Users\asus\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.example.yitaku.app-debug-4 D:\live project\nihar sir\yitakuapp\android\app\src\debug\res
+com.example.yitaku.app-main-5 D:\live project\nihar sir\yitakuapp\android\app\src\main\res
+com.example.yitaku.app-pngs-6 D:\live project\nihar sir\yitakuapp\build\app\generated\res\pngs\debug
+com.example.yitaku.app-resValues-7 D:\live project\nihar sir\yitakuapp\build\app\generated\res\resValues\debug
+com.example.yitaku.app-rs-8 D:\live project\nihar sir\yitakuapp\build\app\generated\res\rs\debug
+com.example.yitaku.app-mergeDebugResources-9 D:\live project\nihar sir\yitakuapp\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.yitaku.app-mergeDebugResources-10 D:\live project\nihar sir\yitakuapp\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.yitaku.app-merged_res-11 D:\live project\nihar sir\yitakuapp\build\app\intermediates\merged_res\debug
+com.example.yitaku.app-packaged_res-12 D:\live project\nihar sir\yitakuapp\build\shared_preferences_android\intermediates\packaged_res\debug

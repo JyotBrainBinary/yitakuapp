@@ -4,7 +4,7 @@
             "outputFile": "com.example.yitaku.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\jyot\\Nihar sir\\yitaku\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\live project\\nihar sir\\yitakuapp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
