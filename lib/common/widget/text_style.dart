@@ -1,27 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:yitaku/utils/colorRes.dart';
 
-TextStyle regular(
-    {Color? color,
-      double? fontSize,
-      double? letterSpacing,
-      TextDecoration? textdeco,
-      FontWeight? fontWeight}) {
+import '../../utils/font_res.dart';
+
+TextStyle regular({Color? color,
+  double? fontSize,
+  double? letterSpacing,
+  TextDecoration? textdeco,
+  double? height,
+
+  FontWeight? fontWeight}) {
   return TextStyle(
-    color: color ?? ColorRes.white,
-    fontWeight: fontWeight ?? FontWeight.w400,
-    fontSize: fontSize ?? 14,
-    //fontFamily: FontRes.poppinsRegular,
-    letterSpacing: letterSpacing ?? 0,
-    decoration: textdeco,
+      color: color ?? ColorRes.white,
+      fontWeight: fontWeight ?? FontWeight.w400,
+      fontSize: fontSize ?? 14,
+      fontFamily: FontRes.overpassRegular,
+      letterSpacing: letterSpacing ?? 0,
+      decoration: textdeco,
+      height: height,
+
   );
 }
 
-TextStyle medium(
-    {Color? color,
-      double? fontSize,
-      double? letterSpacing,
-      FontWeight? fontWeight}) {
+TextStyle medium({Color? color,
+  double? fontSize,
+  double? letterSpacing,
+  FontWeight? fontWeight}) {
   return TextStyle(
     color: color ?? ColorRes.white,
     fontWeight: fontWeight ?? FontWeight.w500,
@@ -31,11 +35,10 @@ TextStyle medium(
   );
 }
 
-TextStyle semiBold(
-    {Color? color,
-      double? fontSize,
-      double? letterSpacing,
-      FontWeight? fontWeight}) {
+TextStyle semiBold({Color? color,
+  double? fontSize,
+  double? letterSpacing,
+  FontWeight? fontWeight}) {
   return TextStyle(
     color: color ?? ColorRes.white,
     fontWeight: fontWeight ?? FontWeight.w600,
@@ -46,11 +49,10 @@ TextStyle semiBold(
 }
 
 
-TextStyle bold(
-    {Color? color,
-      double? fontSize,
-      double? letterSpacing,
-      FontWeight? fontWeight}) {
+TextStyle bold({Color? color,
+  double? fontSize,
+  double? letterSpacing,
+  FontWeight? fontWeight}) {
   return TextStyle(
     color: color ?? ColorRes.white,
     fontWeight: fontWeight ?? FontWeight.bold,

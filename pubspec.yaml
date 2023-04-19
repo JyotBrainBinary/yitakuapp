@@ -76,6 +76,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Overpass-Italic
+      fonts:
+        - asset: assets/fonts/Overpass-Italic-VariableFont_wght.ttf
+    - family: Overpass-VariableFont
+      fonts:
+        - asset: assets/fonts/Overpass-VariableFont_wght.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:

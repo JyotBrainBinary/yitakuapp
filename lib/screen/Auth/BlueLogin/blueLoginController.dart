@@ -6,8 +6,31 @@ class BlueLoginController extends GetxController{
   bool isPassError=false;
   bool isEmailError=false;
 
+
+  bool isActive =false;
+
+
+  bool activeField =true;
+
+  bool activePassField =true;
+
   GlobalKey<FormState> formKey =GlobalKey();
 
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
+
+
+
+  void validator(String val){
+    if (val.toString().isEmail == false) {
+    activeField = true;
+
+       "Please enter valid email";
+
+    }
+    update(["email"]);
+
+    return null;
+
+  }
 }
